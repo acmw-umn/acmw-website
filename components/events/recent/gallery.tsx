@@ -80,7 +80,7 @@ export default function Gallery() {
   })
 
   eventGroups.sort((a, b) =>
-    new Date(b.event.date).getTime() - new Date(a.event.date).getTime()
+    new Date(b.event.date ?? 0).getTime() - new Date(a.event.date ?? 0).getTime()
   )
 
   return (
