@@ -59,15 +59,17 @@ export default function Upcoming() {
               <Image alt="" src={eventCard.image} width={400} height={500} className="w-full sm:w-60 sm:h-75 object-cover mr-0 sm:mr-4 lg:mr-2 rounded-lg" />
               <div className="mt-4 sm:mt-0 sm:ml-4">
                 <h1 className="font-header text-xl">{eventCard.title}</h1>
-                <h3 className="italic text-sm">
-                  {new Date(`${eventCard.date}T00:00:00`).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                    weekday: "long",
-                  })}
-                </h3>
-                <p className="text-sm italic">{eventCard.time}</p>
-                <p className="text-sm italic">{eventCard.location}</p>
+                {eventCard.date && (
+                  <h3 className="italic text-sm">
+                    {new Date(`${eventCard.date}T00:00:00`).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      weekday: "long",
+                    })}
+                  </h3>
+                )}
+                {eventCard.time && <p className="text-sm italic">{eventCard.time}</p>}
+                {eventCard.location && <p className="text-sm italic">{eventCard.location}</p>}
                 <p className="mt-3 text-prose">{eventCard.description}</p>
                 {eventCard.rsvpLink && (
                   <a href={eventCard.rsvpLink} target="_blank" rel="noopener noreferrer" className="text-maroon inline-flex items-center gap-2 mt-4">

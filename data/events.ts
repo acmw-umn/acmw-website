@@ -2,7 +2,7 @@
 export type Event = {
   id: number;
   title: string;
-  date: string;
+  date: string | null;
   time: string | null;
   location: string | null;
   image: string;
@@ -361,9 +361,9 @@ const events: EventsData = {
       {
         id: 0,
         title: "No Upcoming Events",
-        date: "2022-09-15",
-        time: "4:30 PM - 6:00 PM",
-        location: "Tate Hall",
+        date: null,
+        time: null,
+        location: null,
         image: "/images/homepage/delay.jpg",
         description:
           "Our board is hard at working planning ACM-W's next event! Stay tuned for more!",
