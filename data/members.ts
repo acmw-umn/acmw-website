@@ -68,6 +68,168 @@ const membersData: MembersData = {
     description: "Minah is a 4th-year Statistics major with a Computer Science minor, set to graduate in December 2026!"
   },
   {
+    name: "Stephanie Tapia Briones",
+    role: "Technical Lead",
+    major: "Computer Science",
+    minor: null,
+    year: "2nd",
+    gradYear: "May 2027",
+    imgSrc: "/images/team/members/stephanie-webmaster.png",
+    about: [
+      { q: "Fun Fact:", a: "h" },
+      { q: "Favorite CSCI Class:", a: "s" },
+    ],
+    description: "Stephanie is a 3rd-year Computer Science student! She is looking to graduate in May 2027."
+  },
+  {
+    name: "Harini Kuchibhotla",
+    role: "Treasurer",
+    major: "Computer Science and Data Science",
+    minor: null,
+    year: "3rd",
+    gradYear: "May 2027",
+    imgSrc: "/images/team/members/harini-treasurer.png",
+    about: [
+      { q: "Fun Fact:", a: "h" },
+      { q: "Favorite CSCI Class:", a: "s" },],
+    description: "Harini is a 3rd-year student double majoring in Computer Science and Data Science. She is graduating in May 2027."
+  },
+  {
+    name: "Adna Wardere",
+    role: "Graphics",
+    major: "Computer Science",
+    minor: "ITI and Leadership",
+    year: "4th",
+    gradYear: "May 2026",
+    imgSrc: "/images/team/members/adna-graphics.png",
+    about: [
+      { q: "What's your go-to drink order?", a: "Thai tea or earl grey latte!" },
+      { q: "What hobbies do you enjoy?", a: "Gardening, gaming, and reading." },
+      { q: "The best programming language is ___. Why?", a: "Java, cause of the memory deallocation!" }
+    ],
+    description: "Adna is a 4th-year Computer Science major with minors in ITI and Leadership, on track to graduate in May 2026!"
+  },
+  {
+    name: "Nikhila Narapareddy",
+    role: "Corporate Outreach",
+    major: "BIS in Computer Science, Math, and Statistics",
+    minor: null,
+    year: "4th",
+    gradYear: "December 2025",
+    imgSrc: "/images/team/members/nikhila-corporate-outreach.png",
+    about: [
+      { q: "Fun Fact:", a: "h" },
+      { q: "Favorite CSCI Class:", a: "s" },
+    ],
+    description: "Simi is a 4th-year BIS student with concentrations in Computer Science, Mathematics, and Statistics. She is set to graduate in December 2025."
+  },
+  {
+    name: "Joseline Rosa",
+    role: "Marketing",
+    major: "Computer Science",
+    minor: null,
+    year: "4th",
+    gradYear: "May 2026",
+    imgSrc: "/images/team/members/joseline-marketing.png",
+    about: [
+      { q: "Tell us a fun fact about you!", a: "I have traveled to 12 countires so far and plan to travel to all continents." },
+      { q: "What's your go-to drink order?", a: "Brown sugar latte with coffee boba!" },
+      { q: "What advice would you give to someone new to CS?", a: "It does not get easier but you learn as you go. Personally my favorite part is being able to intern and apply my in class learning to the real world." }
+    ],
+    description: "Joseline is a 4th-year Computer Science major planning to graduate in May 2026!"
+  },
+  {
+    name: "Tess Ganbold",
+    role: "Event Chair",
+    major: "Industrial Engineering",
+    minor: null,
+    year: "4th",
+    gradYear: "May 2026",
+    imgSrc: "/images/team/members/tess-events.png",
+    about: [
+      { q: "Fun Fact:", a: "h" },
+      { q: "Favorite CSCI Class:", a: "s" },
+    ],
+    description: "Jihee is a 4th-year Industrial Engineering major planning to graduate in May 2026!"
+  },
+  {
+    name: "Mounika Macha",
+    role: "Intern",
+    major: "Industrial Engineering",
+    minor: null,
+    year: "4th",
+    gradYear: "May 2026",
+    imgSrc: "/images/team/members/mounika-intern.png",
+    about: [
+      { q: "Fun Fact:", a: "h" },
+      { q: "Favorite CSCI Class:", a: "s" },
+    ],
+    description: "Jihee is a 4th-year Industrial Engineering major planning to graduate in May 2026!"
+  },
+  {
+    name: "Shana Watters",
+    role: "Advisor",
+    major: null,
+    minor: null,
+    year: null,
+    gradYear: null,
+    imgSrc: "/images/team/members/shana-advisor-2.png",
+    about: [
+      { q: null, a: null },
+      { q: null, a: null },
+      { q: null, a: null }
+    ],
+    description: "Dr. Watters, a Teaching Professor in Computer Science, brings years of experience in computing education and a deep commitment to supporting gender minorities in tech. As ACM-W's faculty advisor, she provides guidance and institutional support to help the club thrive."
+  }
+  ],
+  past: {
+    "2025-2026": [
+  {
+    name: "Amelia Lunning",
+    role: "President",
+    major: "Computer Science",
+    minor: "Math",
+    year: "4",
+    gradYear: "May 2026",
+    imgSrc: "/images/team/members/amelia-president.png",
+    about: [
+      { q: "What is your favorite CSCI class?", a: "CSCI 5161: Compilers" },
+      { q: "Tell us a fun fact about you!", a: "I figure skated for 10 years, and now I skate recreationally" },
+      { q: "What advice would you give to someone new to CS?", a: "Get involved! Being a part of ACM-W has been so beneficial to me both professionally and socially" }
+    ],
+    description: "Amelia is a senior majoring in Computer Science and minoring in Math! She expects to graduate in May 2026."
+  },
+  {
+    name: "Sophie Reznik",
+    role: "Vice President",
+    major: "Computer Science",
+    minor: "Management",
+    year: "3rd",
+    gradYear: "May 2026",
+    imgSrc: "/images/team/members/sophie-vp.png",
+    about: [
+      { q: "Fun Fact:", a: "I'm bilingual! I grew up speaking English and Russian :)" },
+      { q: "Favorite CSCI Class:", a: "CSCI 3081W: Program Design and Development" },
+      { q: "Hobbies:", a: "Reading, sewing, painting, baking & cooking" }
+    ],
+    description: "Sophie is a 3rd-year student majoring in Computer Science with a minor in Management! Her expected graduation is May 2026."
+  },
+  {
+    name: "Minah Elsawy",
+    role: "Secretary",
+    major: "Statistics",
+    minor: "Computer Science",
+    year: "4th",
+    gradYear: "December 2026",
+    imgSrc: "/images/team/members/minah-secretary.png",
+    about: [
+      { q: "What is your favorite CSCI class?", a: "CSCI 5521: Machine Learning Fundamentals" },
+      { q: "What's your go-to drink order?", a: "Brown sugar milk tea boba" },
+      { q: "What advice would you give to someone new to CS?", a: "Take it step by step- it's a difficult field! Give yourself grace and time to learn all the systems, techniques and skills." }
+    ],
+    description: "Minah is a 4th-year Statistics major with a Computer Science minor, set to graduate in December 2026!"
+  },
+  {
     name: "Norah Haque",
     role: "Technical Lead",
     major: "Computer Science",
@@ -172,8 +334,7 @@ const membersData: MembersData = {
     ],
     description: "Dr. Watters, a Teaching Professor in Computer Science, brings years of experience in computing education and a deep commitment to supporting gender minorities in tech. As ACM-W's faculty advisor, she provides guidance and institutional support to help the club thrive."
   }
-  ],
-  past: {
+  ]
     // When transitioning to a new board year:
     // 1. Copy the entire `current` array above
     // 2. Create a new entry here with the academic year as the key (format: "YYYY-YYYY")
