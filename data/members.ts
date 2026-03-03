@@ -76,8 +76,8 @@ const membersData: MembersData = {
     gradYear: "May 2027",
     imgSrc: "/images/team/members/stephanie-webmaster.png",
     about: [
-      { q: "Fun Fact:", a: " " },
-      { q: "Favorite CSCI Class:", a: " " },
+      { q: "Fun Fact:", a: "I have an irrational fear of butterflies" },
+      { q: "Favorite CSCI Class:", a: "CSCI 4011: Formal Languages and Automata Theory" },
     ],
     description: "Stephanie is a 3rd-year Computer Science student! She is looking to graduate in May 2027."
   },
@@ -114,16 +114,16 @@ const membersData: MembersData = {
   {
     name: "Nikhila Narapareddy",
     role: "Corporate Outreach",
-    major: "BIS in Computer Science, Math, and Statistics",
+    major: "Computer Science",
     minor: null,
-    year: "4th",
-    gradYear: "December 2025",
+    year: "3rd",
+    gradYear: "May 2027",
     imgSrc: "/images/team/members/nikhila-corporate-outreach.png",
     about: [
-      { q: "Fun Fact:", a: " " },
-      { q: "Favorite CSCI Class:", a: " " },
+      { q: "Fun Fact:", a: "I thrive on caffeine and bad sleep decisions :)" },
+      { q: "Favorite CSCI Class:", a: "CSCI 4203: Computer Architecture" },
     ],
-    description: "Simi is a 4th-year BIS student with concentrations in Computer Science, Mathematics, and Statistics. She is set to graduate in December 2025."
+    description: "Nikhila is a 3rd-year majoring in Computer Science, she is looking to graduate in May 2027!"
   },
   {
     name: "Joseline Rosa",
@@ -146,27 +146,27 @@ const membersData: MembersData = {
     major: "Computer Science",
     minor: null,
     year: "4th",
-    gradYear: "May 2026",
+    gradYear: "May 2027",
     imgSrc: "/images/team/members/tess-events.png",
     about: [
-      { q: "Fun Fact:", a: " " },
-      { q: "Favorite CSCI Class:", a: " " },
+      { q: "Fun Fact:", a: "I love baking!" },
+      { q: "Favorite CSCI Class:", a: "CSCI 2033: Computational Linear Algebra " },
     ],
-    description: ""
+    description: "Tess is a 3rd-year Computer Science major, her expected graduation date is May 2027!"
   },
   {
     name: "Mounika Macha",
     role: "Intern",
-    major: " ",
-    minor: null,
-    year: "4th",
-    gradYear: "May 2026",
+    major: "Data Science",
+    minor: "Stats",
+    year: "1st",
+    gradYear: "May 2029",
     imgSrc: "/images/team/members/mounika-intern.png",
     about: [
-      { q: "Fun Fact:", a: " " },
-      { q: "Favorite CSCI Class:", a: " " },
+      { q: "Fun Fact:", a: "I like tea more than coffee" },
+      { q: "Favorite CSCI Class:", a: "CSCI 1133: Intro to Programming Concepts " },
     ],
-    description: " "
+    description: "Mounika is a 1st-year majoring in Data Science with a minor in Statistics. She is expected to graduate in May 2029!"
   },
   {
     name: "Shana Watters",
