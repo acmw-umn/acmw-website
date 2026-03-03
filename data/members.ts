@@ -76,8 +76,8 @@ const membersData: MembersData = {
     gradYear: "May 2027",
     imgSrc: "/images/team/members/stephanie-webmaster.png",
     about: [
-      { q: "Fun Fact:", a: "h" },
-      { q: "Favorite CSCI Class:", a: "s" },
+      { q: "Fun Fact:", a: " " },
+      { q: "Favorite CSCI Class:", a: " " },
     ],
     description: "Stephanie is a 3rd-year Computer Science student! She is looking to graduate in May 2027."
   },
@@ -89,9 +89,11 @@ const membersData: MembersData = {
     year: "3rd",
     gradYear: "May 2027",
     imgSrc: "/images/team/members/harini-treasurer.png",
-    about: [
-      { q: "Fun Fact:", a: "h" },
-      { q: "Favorite CSCI Class:", a: "s" },],
+    about:[
+      { q: "What's your go-to drink order?", a: "Taro Milk Tea" },
+      { q: "Tell us a fun fact about you!", a: "I can easily get through an entire season of a TV show in one day!" },
+      { q: "What advice would you give to someone new to CS?", a: "Focus on building a solid understanding of algorithms, and problem-solving, it’s the foundation for everything else!" },
+    ],
     description: "Harini is a 3rd-year student double majoring in Computer Science and Data Science. She is graduating in May 2027."
   },
   {
@@ -118,8 +120,8 @@ const membersData: MembersData = {
     gradYear: "December 2025",
     imgSrc: "/images/team/members/nikhila-corporate-outreach.png",
     about: [
-      { q: "Fun Fact:", a: "h" },
-      { q: "Favorite CSCI Class:", a: "s" },
+      { q: "Fun Fact:", a: " " },
+      { q: "Favorite CSCI Class:", a: " " },
     ],
     description: "Simi is a 4th-year BIS student with concentrations in Computer Science, Mathematics, and Statistics. She is set to graduate in December 2025."
   },
@@ -141,30 +143,30 @@ const membersData: MembersData = {
   {
     name: "Tess Ganbold",
     role: "Event Chair",
-    major: "Industrial Engineering",
+    major: "Computer Science",
     minor: null,
     year: "4th",
     gradYear: "May 2026",
     imgSrc: "/images/team/members/tess-events.png",
     about: [
-      { q: "Fun Fact:", a: "h" },
-      { q: "Favorite CSCI Class:", a: "s" },
+      { q: "Fun Fact:", a: " " },
+      { q: "Favorite CSCI Class:", a: " " },
     ],
-    description: "Jihee is a 4th-year Industrial Engineering major planning to graduate in May 2026!"
+    description: ""
   },
   {
     name: "Mounika Macha",
     role: "Intern",
-    major: "Industrial Engineering",
+    major: " ",
     minor: null,
     year: "4th",
     gradYear: "May 2026",
     imgSrc: "/images/team/members/mounika-intern.png",
     about: [
-      { q: "Fun Fact:", a: "h" },
-      { q: "Favorite CSCI Class:", a: "s" },
+      { q: "Fun Fact:", a: " " },
+      { q: "Favorite CSCI Class:", a: " " },
     ],
-    description: "Jihee is a 4th-year Industrial Engineering major planning to graduate in May 2026!"
+    description: " "
   },
   {
     name: "Shana Watters",
