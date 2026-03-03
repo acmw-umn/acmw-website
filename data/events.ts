@@ -43,16 +43,17 @@ export type EventsData = {
 const events: EventsData = {
   upcoming: [
     {
-      id: 35,
-      title: "Winter Study Session",
-      date: "2025-12-11",
-      time: "2:00 PM - 3:30 PM",
-      location: "Keller 2-246",
-      image: "/images/events/posters/2025-winter-study-session.png",
+      id: 36,
+      title: "Study Night",
+      date: "2026-03-03",
+      time: "5:00 PM - 6:30 PM",
+      location: "Amundson 240",
+      image: "/images/events/posters/2026-study-night.png",
       description:
-        "ACM-W is hosting a cozy Winter Study Session! Come study, sip hot cocoa, and unwind before finals ❄️☕ Dec 11 in Keller 2-246!",
-      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJIPekoGt-swe5cpaVVMaNEm4lr5O1aK3qOEXz52GStTQ2gg/viewform",
+        "Lock in for midterms with ACM-W at our study night event🌙✨   Snack and energy drinks provided to keep you fueled⚡️",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSeIiigoOyPzay-WpeRsBpSeZYmMX-pIJuh80v_VFtdac7Sxrw/viewform",
     },
+    
   ],
 
   past: {
@@ -177,6 +178,17 @@ const events: EventsData = {
           "WiB x ACM-W are teaming up for a bracelet-making night with Insomnia Cookies. Friendship bracelets, bead bracelets, rubber band bracelets - all supplies provided!",
         rsvpLink: "https://forms.gle/ndgC825Co3uALRps6",
       },
+      {
+      id: 35,
+      title: "Winter Study Session",
+      date: "2025-12-11",
+      time: "2:00 PM - 3:30 PM",
+      location: "Keller 2-246",
+      image: "/images/events/posters/2025-winter-study-session.png",
+      description:
+        "ACM-W is hosting a cozy Winter Study Session! Come study, sip hot cocoa, and unwind before finals ❄️☕ Dec 11 in Keller 2-246!",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJIPekoGt-swe5cpaVVMaNEm4lr5O1aK3qOEXz52GStTQ2gg/viewform",
+    },
     ],
     "2024": [
       {
