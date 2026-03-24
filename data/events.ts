@@ -45,7 +45,7 @@ const events: EventsData = {
     {
       id: 37,
       title: "Github Workshop",
-      date: "2026-03-24",
+      date: "2026-03-26",
       time: "5:00 PM - 6:00 PM",
       location: "Keller 3-115",
       image: "/images/events/posters/2026-ACM-W-Github.png",
