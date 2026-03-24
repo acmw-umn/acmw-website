@@ -43,16 +43,16 @@ export type EventsData = {
 const events: EventsData = {
   upcoming: [
     {
-      id: 36,
-      title: "Study Night",
-      date: "2026-03-03",
-      time: "5:00 PM - 6:30 PM",
-      location: "Amundson 240",
-      image: "/images/events/posters/2026-study-night.png",
+      id: 37,
+      title: "Github Workshop",
+      date: "2026-03-24",
+      time: "5:00 PM - 6:00 PM",
+      location: "Keller 3-115",
+      image: "/images/events/posters/2026-ACM-W-Github.png",
       description:
-        "Lock in for midterms with ACM-W at our study night event🌙✨   Snack and energy drinks provided to keep you fueled⚡️",
-      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSeIiigoOyPzay-WpeRsBpSeZYmMX-pIJuh80v_VFtdac7Sxrw/viewform",
-    },
+        "Join ACM-W in this interactive workshop and learn how create and manage your own repo!! Bring a laptop and some friends! We hope to see you there!!💻 💕",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScwbXfI-p3Bxn7djF0wj2KB0baxXR2ws5gLl3kRMnNpMVSUrw/viewform"
+    }
     
   ],
 
@@ -165,7 +165,7 @@ const events: EventsData = {
         image: "/images/events/posters/2025-girls-night-in.png",
         description:
           "Join ACM-W for a cozy evening filled with movies, snacks, and fun vibes! ",
-        rsvpLink: "https://forms.gle/vHnxhXewXyFLFaL38",
+        rsvpLink: null,
       },
       {
         id: 34,
@@ -176,7 +176,7 @@ const events: EventsData = {
         image: "/images/events/posters/2025-crafts-and-cookies.png",
         description:
           "WiB x ACM-W are teaming up for a bracelet-making night with Insomnia Cookies. Friendship bracelets, bead bracelets, rubber band bracelets - all supplies provided!",
-        rsvpLink: "https://forms.gle/ndgC825Co3uALRps6",
+        rsvpLink: null,
       },
       {
       id: 35,
@@ -187,7 +187,18 @@ const events: EventsData = {
       image: "/images/events/posters/2025-winter-study-session.png",
       description:
         "ACM-W is hosting a cozy Winter Study Session! Come study, sip hot cocoa, and unwind before finals ❄️☕ Dec 11 in Keller 2-246!",
-      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJIPekoGt-swe5cpaVVMaNEm4lr5O1aK3qOEXz52GStTQ2gg/viewform",
+      rsvpLink: null,
+    },
+    {
+      id: 36,
+      title: "Study Night",
+      date: "2026-03-03",
+      time: "5:00 PM - 6:30 PM",
+      location: "Amundson 240",
+      image: "/images/events/posters/2026-study-night.png",
+      description:
+        "Lock in for midterms with ACM-W at our study night event🌙✨   Snack and energy drinks provided to keep you fueled⚡️",
+      rsvpLink: null,
     },
     ],
     "2024": [
