@@ -8,11 +8,11 @@
   --font-heading: "Manrope", sans-serif;
   --font-league-gothic: "League_Gothic" 'sans-serif';
 
-  --color-gold: #ffcc33;
+  --color-gold: #e6b800;
   --color-maroon: #7a0019;
-  --color-gray-dark: #828282;
-  --color-gray-mid: #D9D9D9;
-  --color-silver: #e6e3df;
+  --color-gray-dark: #4a4a4a;
+  --color-gray-mid: #bfbfbf;
+  --color-silver: #f2f2f2;
 }
 
 @utilities {
