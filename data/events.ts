@@ -43,6 +43,17 @@ export type EventsData = {
 const events: EventsData = {
   upcoming: [
     {
+      id: 38,
+      title: "Bead & Beverage",
+      date: "2026-04-08",
+      time: "4:00 PM - 5:00 PM",
+      location: "Keller 2-246",
+      image: "/images/events/posters/2026-beads-bevs.png",
+      description:
+        "Wind down and get creative with ACM-W. Join us for an evening of bead crafts and mocktails!",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScFPOpJVNl0M4xwVS8zFvlJV5vpNJhuPzX1HAX-pHhtLST5nA/viewform"
+    },
+    {
       id: 39,
       title: "Women In Tech Symposium",
       date: "2026-04-17",
@@ -53,7 +64,6 @@ const events: EventsData = {
         "Join ACM-W for out biggest event of the year! Connect with professors, enjoy an engaging keynote presentation, network with industry professionals, and grab Chipotle for dinner!",
       rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSdsEUvKQXCWNqHCSmKhRBodSwt5t3u_WwDfrLdDsOIeTFqIuA/viewform"
     }
-    
   ],
 
   past: {
