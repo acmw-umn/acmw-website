@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import EventCard from './event-card'
 
@@ -9,7 +10,7 @@ const fadeUp = { hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }
 
 export default function EventDisplay() {
   return (
-    <motion.div className="mt-20 mx-auto px-10 md:px-22 sm:px-15 flex flex-col" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ staggerChildren: 0.2 }}>
+    <motion.div className="mt-2 mx-auto px-10 md:px-22 sm:px-15 flex flex-col" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ staggerChildren: 0.2 }}>
       {/* Cards Grid */}
       <motion.section className="py-40" variants={fadeUp}>
         <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-12 justify-items-center" variants={fadeUp}>
@@ -36,6 +37,21 @@ export default function EventDisplay() {
           </motion.div>
         </motion.div>
       </motion.section>
+
+
+      {/* Past Events Section */}
+      <motion.div className = "flex-col item-center text-center mt-12" variants={fadeUp}>
+        <motion.h2 className="font-heading text-maroon text-xl" initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.3, duration: 0.5 }}>
+          Curious about what we&apos;ve been doing?
+        </motion.h2>
+
+        <motion.h2 className="text-black/60 font-heading text-xl" initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 1.0, duration: 0.5 }}>
+          Check out our{' '}
+          <Link href="/events/recent" className="underline hover:text-gray-dark">
+            past events
+          </Link>.
+        </motion.h2>
+      </motion.div>
     </motion.div>
   )
 }

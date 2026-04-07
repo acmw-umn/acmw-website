@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div>
       <EventsTitle />
-      <EventDisplay />
       <Upcoming />
+      <EventDisplay />
+      
     </div>
   );
 }

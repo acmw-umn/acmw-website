@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <Events />
       <Mission />
       <Stat />
-      <Events />
       <AdjectiveLoop />
       <GetInvolved />
     </div>

@@ -2,11 +2,9 @@
 "use client"
 
 import ACMWCalendar from './calendar'
-import SectionHeader from '../common/section-header'
 import Image from 'next/image'
 import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 import { motion } from "framer-motion"
-import Link from 'next/link'
 import events from '@/data/events'
 import type { Event } from '@/data/events'
 
@@ -35,22 +33,15 @@ export default function Upcoming() {
     : eventId0
 
   return (
-    <div className="w-full flex flex-col items-center px-4">
-      {/* Section Header */}
-      <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
-        <SectionHeader sectionName="Upcoming." position="center" />
-      </motion.div>
-
-      {/* Subtitle */}
-      <motion.p className="text-gray-dark my-4 max-w-4xl sm:max-w-3xl text-sm text-center" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ delay: 0.1, duration: 0.5 }}>
-        We&apos;d love to see you! No experience necessary - if you&apos;re interested, just RSVP at the link.
-      </motion.p>
+    <div className="w-full flex flex-col items-center px-4 mt-24">
+      <motion.div initial = {{opacity: 0, y:20}} whileInView={{opacity: 1 , y: 0}} viewport={{once:true}} transition={{duration: 0.3}}></motion.div>
 
       <div className="flex flex-col lg:flex-row justify-between items-start w-full max-w-[1100px] gap-8">
         {/* Calendar */}
-        <motion.div className="w-full lg:w-1/2 flex justify-center mt-4" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ delay: 0.2, duration: 0.5 }}>
-          <ACMWCalendar />
-        </motion.div>
+        <motion.div className="w-full lg:w-1/2 flex flex-col items-center mt-4" initial={{opacity: 0, y:  20}} whileInView={{opacity:1, y: 0}} viewport={{once: true}} transition={{delay: 0.2, duration: 0.3}}>
+        <ACMWCalendar />
+        
+        </motion.div >
 
         {/* Event Card or Fallback */}
         <motion.div className="w-full lg:w-1/2 flex justify-center" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ delay: 0.3, duration: 0.5 }}>
@@ -76,27 +67,20 @@ export default function Upcoming() {
                     RSVP Link <FaArrowUpRightFromSquare className="align-middle" />
                   </a>
                 )}
+                
               </div>
             </div>
+
           ) : (
             <Image src={eventCard.image} alt="Check back soon" width={400} height={500} className="rounded-lg mt-2" />
           )}
         </motion.div>
       </div>
+      <motion.p className="text-gray-dark mt-6 text-sm text-center max-w-[900px] mx-auto whitespace-nowrap overflow-x-auto" initial = {{opacity: 0, y:20}} whileInView={{opacity: 1, y: 0}} viewport = {{once: true}}transition={{duration: 0.3}}>
+        We&apos;d love to see you! No experience necessary — if you&apos;re interested, just RSVP at the link.
+        </motion.p>
 
-      {/* Past Events Section */}
-      <div className="mt-9">
-        <motion.h2 className="mt-10 font-heading text-maroon text-xl" initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.8, duration: 0.5 }}>
-          Curious about what we&apos;ve been doing?
-        </motion.h2>
-
-        <motion.h2 className="text-black/60 font-heading text-xl" initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 1.0, duration: 0.5 }}>
-          Check out our{' '}
-          <Link href="/events/recent" className="underline hover:text-gray-dark">
-            past events
-          </Link>.
-        </motion.h2>
-      </div>
+      
     </div>
   )
 }
