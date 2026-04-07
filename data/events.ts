@@ -43,6 +43,33 @@ export type EventsData = {
 const events: EventsData = {
   upcoming: [
     {
+      id: 39,
+      title: "Women In Tech Symposium",
+      date: "2026-04-17",
+      time: "5:00 PM - 8:00 PM",
+      location: "Moos 1-450",
+      image: "/images/events/posters/2026-wits.png",
+      description:
+        "Join ACM-W for out biggest event of the year! Connect with professors, enjoy an engaging keynote presentation, network with industry professionals, and grab Chipotle for dinner!",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSdsEUvKQXCWNqHCSmKhRBodSwt5t3u_WwDfrLdDsOIeTFqIuA/viewform"
+    }
+    
+  ],
+
+  past: {
+    "2026":[
+    {
+      id: 36,
+      title: "Study Night",
+      date: "2026-03-03",
+      time: "5:00 PM - 6:30 PM",
+      location: "Amundson 240",
+      image: "/images/events/posters/2026-study-night.png",
+      description:
+        "Lock in for midterms with ACM-W at our study night event🌙✨   Snack and energy drinks provided to keep you fueled⚡️",
+      rsvpLink: null,
+    },
+    {
       id: 37,
       title: "Github Workshop",
       date: "2026-03-26",
@@ -52,11 +79,8 @@ const events: EventsData = {
       description:
         "Join ACM-W in this interactive workshop and learn how create and manage your own repo!! Bring a laptop and some friends! We hope to see you there!!💻 💕",
       rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScwbXfI-p3Bxn7djF0wj2KB0baxXR2ws5gLl3kRMnNpMVSUrw/viewform"
-    }
-    
-  ],
-
-  past: {
+    },
+    ],
     "2025": [
       {
         id: 24,
@@ -187,17 +211,6 @@ const events: EventsData = {
       image: "/images/events/posters/2025-winter-study-session.png",
       description:
         "ACM-W is hosting a cozy Winter Study Session! Come study, sip hot cocoa, and unwind before finals ❄️☕ Dec 11 in Keller 2-246!",
-      rsvpLink: null,
-    },
-    {
-      id: 36,
-      title: "Study Night",
-      date: "2026-03-03",
-      time: "5:00 PM - 6:30 PM",
-      location: "Amundson 240",
-      image: "/images/events/posters/2026-study-night.png",
-      description:
-        "Lock in for midterms with ACM-W at our study night event🌙✨   Snack and energy drinks provided to keep you fueled⚡️",
       rsvpLink: null,
     },
     ],
