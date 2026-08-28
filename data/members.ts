@@ -52,21 +52,7 @@ const membersData: MembersData = {
     ],
     description: "Sophie is a 3rd-year student majoring in Computer Science with a minor in Management! Her expected graduation is May 2026."
   },
-  {
-    name: "Minah Elsawy",
-    role: "Secretary",
-    major: "Statistics",
-    minor: "Computer Science",
-    year: "4th",
-    gradYear: "December 2026",
-    imgSrc: "/images/team/members/minah-secretary.png",
-    about: [
-      { q: "What is your favorite CSCI class?", a: "CSCI 5521: Machine Learning Fundamentals" },
-      { q: "What's your go-to drink order?", a: "Brown sugar milk tea boba" },
-      { q: "What advice would you give to someone new to CS?", a: "Take it step by step- it's a difficult field! Give yourself grace and time to learn all the systems, techniques and skills." }
-    ],
-    description: "Minah is a 4th-year Statistics major with a Computer Science minor, set to graduate in December 2026!"
-  },
+
   {
     name: "Stephanie Tapia Briones",
     role: "Technical Lead",
@@ -125,21 +111,7 @@ const membersData: MembersData = {
     ],
     description: "Nikhila is a 3rd-year majoring in Computer Science, she is looking to graduate in May 2027!"
   },
-  {
-    name: "Joseline Rosa",
-    role: "Marketing",
-    major: "Computer Science",
-    minor: null,
-    year: "4th",
-    gradYear: "May 2026",
-    imgSrc: "/images/team/members/joseline-marketing.png",
-    about: [
-      { q: "Tell us a fun fact about you!", a: "I have traveled to 12 countires so far and plan to travel to all continents." },
-      { q: "What's your go-to drink order?", a: "Brown sugar latte with coffee boba!" },
-      { q: "What advice would you give to someone new to CS?", a: "It does not get easier but you learn as you go. Personally my favorite part is being able to intern and apply my in class learning to the real world." }
-    ],
-    description: "Joseline is a 4th-year Computer Science major planning to graduate in May 2026!"
-  },
+  
   {
     name: "Tess Ganbold",
     role: "Event Chair",
