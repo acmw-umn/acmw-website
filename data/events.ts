@@ -44,6 +44,21 @@ const events: EventsData = {
   upcoming: [
   
     {
+      id: 40,
+      title: "Keller Open House",
+      date: "2026-09-15",
+      time: "4:45 PM - 6:00 PM",
+      location: "Keller 3-166",
+      image: "/images/events/posters/2026-keller-open-house.png",
+      description:
+        "Join us at Keller Open House and connect with student clubs!",
+      rsvpLink: null
+    }
+  ],
+
+  past: {
+    "2026":[  
+      {
       id: 39,
       title: "Women In Tech Symposium",
       date: "2026-04-17",
@@ -53,11 +68,9 @@ const events: EventsData = {
       description:
         "Join ACM-W for out biggest event of the year! Connect with professors, enjoy an engaging keynote presentation, network with industry professionals, and grab Chipotle for dinner!",
       rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSdsEUvKQXCWNqHCSmKhRBodSwt5t3u_WwDfrLdDsOIeTFqIuA/viewform"
-    }
-  ],
-
-  past: {
-    "2026":[  {
+    },
+    {
+      
       id: 38,
       title: "Bead & Beverage",
       date: "2026-04-08",

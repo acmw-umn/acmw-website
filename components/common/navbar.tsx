@@ -1,8 +1,12 @@
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+
+
 // Top navigation bar with logo and page links
+
 export default function NavBar() {
   return (
     <nav className="flex justify-between items-center px-8 py-4">
@@ -19,6 +23,7 @@ export default function NavBar() {
           />
         </Link>
       </div>
+      
 
       {/* Right side: Navigation links to new pages */}
       <ul className="flex space-x-8 text-maroon font-inter">
