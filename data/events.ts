@@ -41,9 +41,24 @@ export type EventsData = {
 // }
 
 const events: EventsData = {
-  upcoming: [
+  upcoming: [{
+      id: 41,
+      title: "Internship & Behavioral Interview Prep",
+      date: "2026-10-21",
+      time: "5:00 PM - 6:00 PM",
+      location: "Keller 3-125",
+      image: "/images/events/posters/2026-interview-prep.png",
+      description:
+        "Join ACM-W for our Internship & Behavioral Interview Prep! Get some interview practice in and enjoy some donuts 🍩🍩",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScFSrd-3zRjCwYHxPYJb_8Euwyd9AFM2xQ9U8C4WCercgs-YQ/viewform"
+    }
   
-    {
+    
+  ],
+
+  past: {
+    "2026":[ 
+      {
       id: 40,
       title: "Keller Open House",
       date: "2026-09-15",
@@ -53,11 +68,7 @@ const events: EventsData = {
       description:
         "Join us at Keller Open House and connect with student clubs!",
       rsvpLink: null
-    }
-  ],
-
-  past: {
-    "2026":[  
+    },
       {
       id: 39,
       title: "Women In Tech Symposium",
@@ -79,7 +90,7 @@ const events: EventsData = {
       image: "/images/events/posters/2026-beads-bevs.png",
       description:
         "Wind down and get creative with ACM-W. Join us for an evening of bead crafts and mocktails!",
-      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScFPOpJVNl0M4xwVS8zFvlJV5vpNJhuPzX1HAX-pHhtLST5nA/viewform"
+      rsvpLink: null
     },
     {
       id: 36,
