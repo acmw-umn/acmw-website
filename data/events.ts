@@ -42,6 +42,23 @@ export type EventsData = {
 
 const events: EventsData = {
   upcoming: [{
+      id: 42,
+      title: "Halloween Cookie Decorating",
+      date: "2026-10-28",
+      time: "5:00 PM - 6:30 PM",
+      location: "Bruiniks Hall, Room 123",
+      image: "/images/events/posters/2026-Halloween-Cookie-Decorating.png",
+      description:
+        "Join ACM-W at out Halloween Cookie Decorating Event! Decorate cookies while sipping on hot chocolate🍪🎃",
+      rsvpLink: "https://z.umn.edu/acmw-treats"
+    }
+  
+    
+  ],
+
+  past: {
+    "2026":[ 
+      {
       id: 41,
       title: "Internship & Behavioral Interview Prep",
       date: "2026-10-21",
@@ -51,13 +68,7 @@ const events: EventsData = {
       description:
         "Join ACM-W for our Internship & Behavioral Interview Prep! Get some interview practice in and enjoy some donuts 🍩🍩",
       rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScFSrd-3zRjCwYHxPYJb_8Euwyd9AFM2xQ9U8C4WCercgs-YQ/viewform"
-    }
-  
-    
-  ],
-
-  past: {
-    "2026":[ 
+    },
       {
       id: 40,
       title: "Keller Open House",
