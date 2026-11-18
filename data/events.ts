@@ -42,15 +42,15 @@ export type EventsData = {
 
 const events: EventsData = {
   upcoming: [{
-      id: 42,
-      title: "Halloween Cookie Decorating",
-      date: "2026-10-28",
-      time: "5:00 PM - 6:30 PM",
-      location: "Bruiniks Hall, Room 123",
-      image: "/images/events/posters/2026-Halloween-Cookie-Decorating.png",
+      id: 43,
+      title: "Pre-Registration Mingle",
+      date: "2026-11-19",
+      time: "3:00 PM - 3:45 PM",
+      location: "Molecular Biology 2-120",
+      image: "/images/events/posters/2026-pre-registration.png",
       description:
-        "Join ACM-W at out Halloween Cookie Decorating Event! Decorate cookies while sipping on hot chocolate🍪🎃",
-      rsvpLink: "https://z.umn.edu/acmw-treats"
+        "Join ACM-W for our Pre-Registration mingle. Come meet UMN Computer Science professors, ask questions and enjoy some Jimmy Johns✨",
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSdr7srSd6lKcysChfVAHBostRiq64UCd1EqgubZwf_EhIvKDw/viewform?usp=header"
     }
   
     
@@ -59,6 +59,17 @@ const events: EventsData = {
   past: {
     "2026":[ 
       {
+      id: 42,
+      title: "Halloween Cookie Decorating",
+      date: "2026-10-28",
+      time: "5:00 PM - 6:30 PM",
+      location: "Bruiniks Hall, Room 123",
+      image: "/images/events/posters/2026-Halloween-Cookie-Decorating.png",
+      description:
+        "Join ACM-W at out Halloween Cookie Decorating Event! Decorate cookies while sipping on hot chocolate🍪🎃",
+      rsvpLink: null
+    },
+    {
       id: 41,
       title: "Internship & Behavioral Interview Prep",
       date: "2026-10-21",
@@ -67,7 +78,7 @@ const events: EventsData = {
       image: "/images/events/posters/2026-interview-prep.png",
       description:
         "Join ACM-W for our Internship & Behavioral Interview Prep! Get some interview practice in and enjoy some donuts 🍩🍩",
-      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLScFSrd-3zRjCwYHxPYJb_8Euwyd9AFM2xQ9U8C4WCercgs-YQ/viewform"
+      rsvpLink: null
     },
       {
       id: 40,
@@ -89,7 +100,7 @@ const events: EventsData = {
       image: "/images/events/posters/2026-wits.png",
       description:
         "Join ACM-W for out biggest event of the year! Connect with professors, enjoy an engaging keynote presentation, network with industry professionals, and grab Chipotle for dinner!",
-      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSdsEUvKQXCWNqHCSmKhRBodSwt5t3u_WwDfrLdDsOIeTFqIuA/viewform"
+      rsvpLink: null
     },
     {
       
